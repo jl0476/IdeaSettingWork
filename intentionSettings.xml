@@ -1,0 +1,7 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Kotlin/Import members with '*'" />
+    <ignoreAction name="Java/Imports/Replace On Demand Import with Single Class Imports" />
+    <ignoreAction name="XML/Collapse empty tag" />
+  </component>
+</application>
