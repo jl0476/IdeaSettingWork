@@ -1,0 +1,16 @@
+<templateSet group="user">
+  <template name="for" value="for(int $INDEX$ = 0; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="if" value="if ($END$) {&#10;    &#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="try" value="try {&#10;    $END$&#10;} catch (Exception e) {&#10;    logger.error(e.getMessage(),e);&#10;    e.printStackTrace();&#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="while" value="while ($END$) {&#10;    &#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
