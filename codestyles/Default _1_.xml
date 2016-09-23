@@ -1,5 +1,6 @@
 <code_scheme name="Default (1)">
   <option name="AUTODETECT_INDENTS" value="false" />
+  <option name="USE_FQ_CLASS_NAMES" value="true" />
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
