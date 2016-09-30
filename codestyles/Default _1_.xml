@@ -7,6 +7,9 @@
   </XML>
   <codeStyleSettings language="JAVA">
     <option name="RIGHT_MARGIN" value="150" />
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="LINE_COMMENT_ADD_SPACE" value="true" />
     <option name="WRAP_LONG_LINES" value="true" />
     <option name="WRAP_ON_TYPING" value="1" />
     <indentOptions>
